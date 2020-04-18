@@ -5,12 +5,20 @@ An Enlightened Decentralized Voting App in the Ethereum Blockchain using Distrib
 The Decentralized Internet is Our Constitutional and Global Right, let's navigate through the future of 5G and Web3!s
 
 
-Required:
+What's Required:
 > Truffle Framework- For Establishing a Smart Contract, expedites development on the Ether, contains automated testing and a configureable build pipeline
 > npm install -g truffle
 
 >Ganache: Graphical User Interface that displays transaction history and current chain state
 >ganache-cli :Command Line tool for Truffle Blockchain Server
+
+
+React Dependencies:
+>npm install babel-core babel-loader babel-preset-react babel-preset-stage-2
+>npm install web3
+>npm install react reacdom reactstrap 
+>npm install truffle-contract
+>npm install webpack webpack-cli webpack-dev-server css-loader
 
 We write up the smart contract using Solidity in the smart-contracts folder. 
 >.sol files
@@ -45,7 +53,7 @@ If you wish to get a domain name and hose this, you have to use ENS and buy a de
 5. Configure Metamask-import an account node from Ganache with their public hash. 
 
 6. npm run dev 
->just like a standard react app on the client side, but instead of a Node server, we are using Ethereum's Lite Server(it's Lite. )
+>just like a standard react app on the client side, but instead of a Node server, we are using Truffle's Lite Server(it's Lite.)
 >Voting with truth, without the bullshits.
 
 Remember to Send It.  
