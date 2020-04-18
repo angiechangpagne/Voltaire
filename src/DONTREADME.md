@@ -14,3 +14,6 @@ npm install -D babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-p
 
 hooks:
 npm install -D eslint-plugin-react-hooks
+
+bable loader:
+npm install -D babel-eslint @babel/core @babel/preset-env @babel/plugin-proposal-class-properties @babel/preset-react
