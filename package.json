@@ -1,0 +1,22 @@
+{
+  "name": "voltaire",
+  "version": "1.0.0",
+  "description": "An Enlightened way to Vote",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yvevestaltitan, formerly angiechangpagne",
+  "license": "MIT",
+  "dependencies": {
+    "lite-server": "^2.5.4",
+    "react": "^16.13.1",
+    "reactdom": "^2.0.0",
+    "truffle": "^5.1.22"
+  },
+  "devDepencies": {}
+}

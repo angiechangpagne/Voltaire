@@ -12,8 +12,23 @@ Required:
 >Ganache: Graphical User Interface that displays transaction history and current chain state
 >ganache-cli :Command Line tool for Truffle Blockchain Server
 
-Blockchain and React.js
+We write up the smart contract using Solidity in the smart-contracts folder. 
+>.sol files
+>The solidity programming language is very similar to a hybrid between Javascript(Typescript) and and Python. In a sense, a block that has been confirmed is like a tuple. 
 
+Essentially, we program the contract to have CRUD functionality, 
+> CREATE -> POST -> Candidate has voted, Store on Blockchain
+> READ -> GET -> All Candidates that exist on the chain
+
+> UPDATE -> Impossible to change an existing block, but an update event/call will trigger a handler, every addition of a new block is an update to the entire state
+
+> DELETE -> IMPOSSIBLE
+
+Smart Contracts are essentially the Code Modules that run when triggered by gas, when two entities have exchanged ETH, the Smart Contract will handle the event or call that will programmitically update the block chain's state. 
+
+
+Blockchain and React.js
+-Once a vote has been sent, it is immutable, and it's true state can never be altered. The aggregate state cannot be rigged by political interests or "technical difficulties". The probability of a glitch in a peer to peer system is significantly reduced. 
 
 Init: Create Default Smart Contract and Tests
 > truffle init
@@ -30,7 +45,7 @@ If you wish to get a domain name and hose this, you have to use ENS and buy a de
 5. Configure Metamask-import an account node from Ganache with their public hash. 
 
 6. npm run dev 
->just like a standard react app on the client side, 
+>just like a standard react app on the client side, but instead of a Node server, we are using Ethereum's Lite Server(it's Lite. )
 >Voting with truth, without the bullshits.
 
 Remember to Send It.  
@@ -38,6 +53,7 @@ Remember to Send It.
 
 
 Tags:
+Solidity
 Blockchain
 ethereum
 ether
